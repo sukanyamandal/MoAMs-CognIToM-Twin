@@ -1,5 +1,6 @@
-# This file contains a pseudocode of MoAMs Coordinator Implementation
+**This file contains a pseudocode of MoAMs Coordinator Implementation**
 
+```python
 class MoAMsCoordinator:
     def coordinate_agents(self, task_requirements):
         # Hierarchical task decomposition
@@ -15,3 +16,4 @@ class MoAMsCoordinator:
         consensus = self.achieve_consensus(assignments)
         
         return consensus, channels
+```

@@ -1,5 +1,6 @@
-# This file contains a pseudocode of the "MoAMs-CognIToM-Twin" Framework Implementation
+**This file contains a pseudocode of the "MoAMs-CognIToM-Twin" Framework Implementation**
 
+```python
 class MoAMsCognIToMTwin:
     def __init__(self):
         self.data_kr_layer = DataKRLayer()
@@ -69,3 +70,4 @@ class FeedbackLearningLoop:
 # Main execution
 cdt = MoAMsCognIToMTwin()
 cdt.run()
+```
